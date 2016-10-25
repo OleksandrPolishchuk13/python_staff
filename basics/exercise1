@@ -1,0 +1,12 @@
+'''My task in exercise1: Write a program that will ask the user for four integer numbers and then add these numbers 
+together before displaying the answer. The input and output should be user friendly.'''
+
+print('This program adds your numbers. Please, type four nubmers!')
+num1 = int(input('Your first: '))
+num2 = int(input('Your second: '))
+num3 = int(input('Your third: '))
+num4 = int(input('The last one: '))
+
+total = num1 + num2 + num3 + num4
+
+print('You typed {0}, {1}, {2} and {3}.The total of your numbers is {4}'.format(num1, num2, num3, num4, total))
